@@ -1,0 +1,24 @@
+{
+    "name": "movement-tutorial",
+    "private": true,
+    "scripts": {
+        "build": "rollup -c",
+        "build:watch": "rollup -c --watch",
+        "build:prod": "rollup -c --environment PRODUCTION"
+    },
+    "dependencies": {
+        "@defold/core": "workspace:^1.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-typescript": "^7.10.4",
+        "@rollup/plugin-babel": "^5.2.1",
+        "@rollup/plugin-commonjs": "^15.1.0",
+        "@rollup/plugin-node-resolve": "^9.0.0",
+        "rollup": "^2.28.2",
+        "rollup-plugin-multi-input": "^1.1.1",
+        "rollup-plugin-terser": "^7.0.2",
+        "typescript": "^4.0.3"
+    }
+}

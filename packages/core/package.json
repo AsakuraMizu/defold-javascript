@@ -1,0 +1,16 @@
+{
+    "name": "@defold/core",
+    "version": "1.0.0",
+    "author": "water_lift <0xWATERx0@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AsakuraMizu/defold-duktape.git"
+    },
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "scripts": {
+        "build": "babel src --out-dir lib --extensions .ts",
+        "build:types": "tsc --emitDeclarationOnly"
+    }
+}
